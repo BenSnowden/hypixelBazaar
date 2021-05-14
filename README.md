@@ -1,6 +1,6 @@
 # hypixelBazaar
 
-Unofficial library for interacting with the official Hypixel bazaar API.
+Unofficial library for interacting with the official [Hypixel Bazaar API](https://api.hypixel.net/#tag/SkyBlock/paths/~1skyblock~1bazaar/get).
 
 
 ## Installation
@@ -12,7 +12,7 @@ pip install hypixelBazaar
 ```
 
 ## Usage
-
+Instantiate the Bazaar class and use it to grab bazaar information.
 ```python
 from hypixelBazaar import Bazaar
 
@@ -31,7 +31,7 @@ for p in product_list:
     print(baz.get_sell_order_count(p))
 
 ```
-
+You do not have to worry about going over the limit of API requests. Hypixel updates the bazaar API every ~15 seconds, so the most recent request is cached until it is outdated.
 
 
 ## License
