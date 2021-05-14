@@ -1,0 +1,1 @@
+Unofficial library for interacting with the official Hypixel bazaar API.
