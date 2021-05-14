@@ -8,8 +8,8 @@ setup(
     description="Unofficial libraries for interacting with the official Hypixel bazaar API",
     author="Ben Snowden",
     author_email="benglensnowden@gmail.com",
-    url="https://github.com/user/reponame",  # Provide either the link to your github or to your website
-    download_url="https://github.com/user/reponame/archive/v_01.tar.gz",  # I explain this later on
+    url="https://github.com/BenSnowden/hypixelBazaar.git",  # Provide either the link to your github or to your website
+    download_url="https://github.com/BenSnowden/hypixelBazaar/archive/refs/tags/v_0.1.tar.gz",  # I explain this later on
     install_requires=[],
     classifiers=[
         "Development Status :: 3 - Alpha",
