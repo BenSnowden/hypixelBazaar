@@ -11,7 +11,6 @@ class Bazaar:
         self.api_url = self.api_url
         self.__cache = None
         self.__cacheTime = None
-        self.__makingRequest = False
 
     def __autoUpdate(self):
         if (
@@ -84,5 +83,4 @@ class Bazaar:
         products = []
         for name in self.__cache["products"]:
             products.append(name)
-
         return products
